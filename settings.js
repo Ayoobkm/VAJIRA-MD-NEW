@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
-
+'VAJIRA-MD=HQ83iDzT#6s1RskFOFFzqv-tMCBoaAjna5TXhEHpBw3uJPK0MZ84'
 module.exports = {
     
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=TB0yFBYJ#lzMpm0nrVV0AtWEAcK7Y94Dfb2H3PUYsAwWnzyDscWQ' : process.env.SESSION_ID,
